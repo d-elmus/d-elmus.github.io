@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ebebeb">
+  <title>Eloi D. — Développeur Logiciel</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="no-scroll">
+
+  <div id="preloader">
+    <div class="pre-top">Chargement</div>
+    <div class="pre-center"><span class="si">Eloi </span><em>DUMAS</em></div>
+    <div class="pre-bottom">
+      <div class="pre-footer">
+        <div>Un développeur ordinaire.</div>
+        <div>De Paris avec amour.</div>
+      </div>
+      <div id="progress">0%</div>
+    </div>
+  </div>
+
+  <div id="transition">
+    <div class="t-text"><span class="t-label" id="t-label">—</span></div>
+  </div>
+
+  <header>
+    <nav class="nav container">
+      <div class="nav-logo">
+        <svg class="nav-star" viewBox="0 0 24 24" fill="none">
+          <path d="M11.9999 12L5.61501 20.2027C5.11281 20.7653 4.23154 20.7803 3.72078 20.2572C3.21795 19.7423 3.24334 18.879 3.79721 18.3849C6.53142 16.2566 9.26566 14.1283 11.9999 12Z" fill="#1C1C1C"/>
+          <path d="M11.9999 11.9999L1.68496 13.2852C0.932055 13.3279 0.298262 12.7154 0.306974 11.9844C0.315539 11.2647 0.943908 10.6723 1.68496 10.7145C5.12328 11.143 8.56161 11.5714 11.9999 11.9999Z" fill="#1C1C1C"/>
+          <path d="M11.9999 11.9999L3.79723 5.61501C3.23466 5.11281 3.21962 4.23154 3.74269 3.72078C4.25764 3.21795 5.12089 3.24334 5.61503 3.79721C7.74334 6.53142 9.87162 9.26566 11.9999 11.9999Z" fill="#1C1C1C"/>
+          <path d="M11.9999 11.9999L10.7145 1.68496C10.6718 0.932055 11.2843 0.298262 12.0154 0.306974C12.735 0.315539 13.3275 0.943908 13.2852 1.68496C12.8568 5.12328 12.4283 8.56161 11.9999 11.9999Z" fill="#1C1C1C"/>
+          <path d="M11.9999 12L18.3848 3.79735C18.887 3.23478 19.7682 3.21974 20.279 3.74282C20.7818 4.25776 20.7565 5.12102 20.2026 5.61515C17.4684 7.74346 14.7341 9.87174 11.9999 12Z" fill="#1C1C1C"/>
+          <path d="M11.9999 11.9999L22.3149 10.7145C23.0678 10.6718 23.7016 11.2843 23.6929 12.0154C23.6843 12.735 23.056 13.3275 22.3149 13.2852C18.8766 12.8568 15.4382 12.4283 11.9999 11.9999Z" fill="#1C1C1C"/>
+          <path d="M12 12L20.2027 18.3849C20.7653 18.8871 20.7803 19.7684 20.2572 20.2791C19.7423 20.782 18.879 20.7566 18.3849 20.2027C16.2566 17.4685 14.1283 14.7342 12 12Z" fill="#1C1C1C"/>
+          <path d="M12 12L13.2853 22.315C13.328 23.0679 12.7155 23.7017 11.9845 23.693C11.2648 23.6845 10.6724 23.0561 10.7147 22.315C11.1431 18.8767 11.5715 15.4383 12 12Z" fill="#1C1C1C"/>
+        </svg>
+        <span class="nav-text"><span>Ouvert aux</span><br><span>collaborations</span></span>
+      </div>
+      <div><span class="nav-wordmark" id="menu-toggle">ELOI DUMAS</span></div>
+      <div class="nav-right">
+        <div class="nav-version"><span>Folio</span><span>Vol.1 —</span></div>
+        <button class="nav-burger" id="burger"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <div id="menu">
+    <div class="container">
+      <ul class="menu-inner">
+        <li class="menu-item"><a href="#work" class="menu-link"><span class="menu-num">01</span><span class="menu-lw"><span class="menu-ls"><span class="si">P</span>rojets</span><span class="menu-lc"><span class="si">P</span>rojets</span></span></a></li>
+        <li class="menu-item"><a href="#about" class="menu-link"><span class="menu-num">02</span><span class="menu-lw"><span class="menu-ls"><span class="si">À</span> propos</span><span class="menu-lc"><span class="si">À</span> propos</span></span></a></li>
+        <li class="menu-item"><a href="#contact" class="menu-link"><span class="menu-num">04</span><span class="menu-lw"><span class="menu-ls"><span class="si">C</span>ontact</span><span class="menu-lc"><span class="si">C</span>ontact</span></span></a></li>
+        <li class="menu-item"><span class="menu-year">©2025</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="menu-mobile">
+    <ul class="mm-list">
+      <li class="mm-item"><a href="#work" class="mm-link"><span class="mm-num">01</span><span class="si">P</span>rojets</a></li>
+      <li class="mm-item"><a href="#about" class="mm-link"><span class="mm-num">02</span><span class="si">À</span> propos</a></li>
+      <li class="mm-item"><a href="#contact" class="mm-link"><span class="mm-num">04</span><span class="si">C</span>ontact</a></li>
+    </ul>
+    <div class="mm-footer"><div>Stage 5 mois · Nov 2026</div></div>
+  </div>
+
+  <div class="home-prefix">
+    <main>
+
+      <section class="bento-section">
+        <div class="container">
+          <div class="bento">
+
+            <div class="bc bc-name">
+              <div class="bc-name-top">
+                <p class="bc-eyebrow">Étudiant Ingénieur · Paris</p>
+                <div class="bc-schools">
+                  <p class="school-main">Efrei Paris Panthéon-Assas Université <span class="school-loc">Paris</span></p>
+                  <p class="school-sub">Asia Pacific University <span class="school-loc">Kuala Lumpur</span></p>
+                </div>
+              </div>
+              <h1 class="hello-title" id="hello-title">
+                <span class="font-sec">Eloi </span><span>D.</span>
+              </h1>
+              <p class="hello-sub">(DATA, IA, Finance)</p>
+            </div>
+
+            <div class="bc bc-status">
+              <div class="bc-avail">Disponible</div>
+              <p class="bc-status-head">Pour un Stage<br>de 5 mois</p>
+              <p class="bc-status-sub">
+                A partir de Novembre 2026<br>
+                France ou International<br>
+                Dev · ML · Data
+              </p>
+            </div>
+
+            <div class="bc bc-links">
+              <p class="bc-links-label">Liens</p>
+              <a href="https://www.linkedin.com/in/eloidumas/" target="_blank" rel="noopener noreferrer" class="bc-link">LinkedIn <span>↗</span></a>
+              <a href="https://github.com/d-elmus" target="_blank" rel="noopener noreferrer" class="bc-link">GitHub <span>↗</span></a>
+              <a href="mailto:eloi.dumas@efrei.net" class="bc-link">Email <span>↗</span></a>
+            </div>
+
+            <div class="bc bc-tri">
+              <div class="bento-nav-lang">
+                
+                <div class="bnl-col bnl-left">
+                  <p class="bc-links-label" style="margin-bottom: 0.5rem;">Navigation</p>
+                  <div class="bento-nav-links">
+                    <a href="#work" class="bento-btn">
+                      <span>Mes Projets</span>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    </a>
+                    <a href="#about" class="bento-btn">
+                      <span>Mes Expériences</span>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="bnl-col bnl-center">
+                  <img src="IMG_6863.jpg" alt="Eloi Dumas" class="bnl-pp">
+                </div>
+
+                <div class="bnl-col bnl-right">
+                  <p class="bc-links-label" style="margin-bottom: 0.5rem; text-align: right;">Langues</p>
+                  <div class="bnl-lang-list">
+                    <div class="bnl-lang-row"><span>Français</span><span class="bnl-lvl">Maternelle</span></div>
+                    <div class="bnl-lang-row"><span>Anglais</span><span class="bnl-lvl">Courant</span></div>
+                    <div class="bnl-lang-row"><span>Mandarin</span><span class="bnl-lvl">Débutant</span></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="bc bc-bio">
+              <p class="bc-bio-text">
+                En formation d'ingénieur à l'Efrei, j'oriente mon profil vers l'analyse de 
+                données, l'IA et la finance. Mon objectif est simple : partir de concepts 
+                théoriques (algorithmique, recherche opérationnelle) pour construire des 
+                applications tangibles. À la recherche d'un stage de 5 mois à partir de 
+                novembre 2026 (France ou international) pour approfondir ces domaines sur 
+                des cas d'usage réels.
+              </p>
+            </div>
+
+            <div class="bc bc-tech">
+              <div class="bc-tags">
+                <span class="bc-tag tag-python">Python</span>
+                <span class="bc-tag tag-ml">Machine Learning</span>
+                <span class="bc-tag tag-quant">Finance Quantitative</span>
+                <span class="bc-tag tag-pytorch">PyTorch</span>
+                <span class="bc-tag tag-math">Mathématiques Appliquées</span>
+                <span class="bc-tag tag-data">Data Science</span>
+                <span class="bc-tag tag-algo">Algorithmes</span>
+                <span class="bc-tag tag-cloud">Cloud Computing</span>
+                <span class="bc-tag tag-streamlit">Streamlit</span>
+                <span class="bc-tag tag-ts">TypeScript</span>
+                <span class="bc-tag tag-react">React</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="work">
+        <div class="container">
+          <div class="work-head r">
+            <div class="sec-label">
+              <span>Travaux Sélectionnés</span>
+              <div class="filters">
+                <button class="f-btn on" data-f="all">Tous</button>
+                <button class="f-btn" data-f="Python">Python</button>
+                <button class="f-btn" data-f="TypeScript">TypeScript</button>
+                <button class="f-btn" data-f="Rust">Rust</button>
+                <button class="f-btn" data-f="React">React</button>
+                <button class="f-btn" data-f="ML">ML</button>
+                <button class="f-btn" data-f="JavaScript">JS</button>
+              </div>
+            </div>
+            <span class="work-count">05 projets</span>
+          </div>
+
+          <div class="pi r" data-tags="Python,React,FastAPI">
+            <span class="pi-num">01</span>
+            <div>
+              <h3 class="pi-title">GEMS</h3>
+              <p class="pi-cat">React · TypeScript · Capacitor</p>
+              <p class="pi-desc">App mobile iOS/Android de génération de plans d'entraînement triathlon. Développée en React/Capacitor + moteur algorithmique sur mesure (périodisation, calcul TSS, modèles Daniels/Coggan) avec ajustement dynamique des cibles post-séance.</p>
+            </div>
+            <div class="pi-right">
+              <div class="pi-tags">
+                <span class="ptag">React</span><span class="ptag">TypeScript</span>
+              </div>
+              <div class="pi-links">
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">GitHub ↗</a>
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">Démo ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pi r" data-tags="Python,ML,PyTorch" style="transition-delay:.05s">
+            <span class="pi-num">02</span>
+            <div>
+              <h3 class="pi-title">TDA Risk Sentinel</h3>
+              <p class="pi-cat">Quant Finance · TDA</p>
+              <p class="pi-desc">Dashboard de finance quantitative anticipant les krachs boursiers (Python, Streamlit). Utilisation de l'Analyse Topologique de Données (plongement de Takens, backend C++) pour modéliser l'espace des phases et générer un score de risque prédictif via backtesting asymétrique.</p>
+            </div>
+            <div class="pi-right">
+              <div class="pi-tags">
+                <span class="ptag">Python</span><span class="ptag">ML</span>
+              </div>
+              <div class="pi-links">
+                <a href="https://github.com/d-elmus/TDA-RISK-SENTINEL" target="_blank" rel="noopener noreferrer" class="pi-link" onclick="event.stopPropagation()">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pi r" data-tags="TypeScript,D3.js,WebSockets" style="transition-delay:.1s">
+            <span class="pi-num">03</span>
+            <div>
+              <h3 class="pi-title">DataPulse</h3>
+              <p class="pi-cat">Data Visualization · Real-time</p>
+              <p class="pi-desc">Dashboard analytics temps réel, 15+ visualisations. Pipeline WebSocket → D3.js. Latence &lt;50 ms pour 10 k événements/sec.</p>
+            </div>
+            <div class="pi-right">
+              <div class="pi-tags">
+                <span class="ptag">TypeScript</span><span class="ptag">D3.js</span><span class="ptag">WS</span>
+              </div>
+              <div class="pi-links">
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">GitHub ↗</a>
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">Démo ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pi r" data-tags="Rust,Web3" style="transition-delay:.15s">
+            <span class="pi-num">04</span>
+            <div>
+              <h3 class="pi-title">CryptoScan</h3>
+              <p class="pi-cat">Blockchain · High-Performance CLI</p>
+              <p class="pi-desc">CLI d'analyse on-chain Ethereum. Indexation de blocs, détection MEV, graphes de transactions. Pipeline async Rust — 1 M+ txs/min.</p>
+            </div>
+            <div class="pi-right">
+              <div class="pi-tags">
+                <span class="ptag">Rust</span><span class="ptag">Web3</span>
+              </div>
+              <div class="pi-links">
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pi r" data-tags="JavaScript,Canvas" style="transition-delay:.2s">
+            <span class="pi-num">05</span>
+            <div>
+              <h3 class="pi-title">AlgoViz</h3>
+              <p class="pi-cat">Éducatif · Visualisation Interactive</p>
+              <p class="pi-desc">Visualisateur de 30+ algorithmes classiques. Tri, graphes, pathfinding, DP — animés sur Canvas avec contrôle de vitesse en temps réel.</p>
+            </div>
+            <div class="pi-right">
+              <div class="pi-tags">
+                <span class="ptag">JavaScript</span><span class="ptag">Canvas</span>
+              </div>
+              <div class="pi-links">
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">GitHub ↗</a>
+                <a href="#" class="pi-link" onclick="event.stopPropagation()">Démo ↗</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="about-grid">
+            
+            <div class="r">
+              <h2 class="about-h">
+                Étudiant en<br>informatique<br><em>&amp; triathlète.</em>
+              </h2>
+              <p class="about-body">
+                J'utilise mon temps libre pour poursuivre des défis qui exigent un engagement
+                 total et une grande résilience. Le triathlon d'endurance m'a appris la 
+                 valeur de l'effort continu et l'importance d'analyser ses propres métriques 
+                 de performance — une approche méthodique que je transfère naturellement 
+                 dans mes projets informatiques.<br>
+              </p>
+              <div class="about-links">
+                <a href="https://www.linkedin.com/in/eloidumas/" target="_blank" rel="noopener noreferrer" class="alink">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7H10v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  LinkedIn
+                </a>
+                <a href="https://github.com/d-elmus" target="_blank" rel="noopener noreferrer" class="alink">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  GitHub
+                </a>
+                <a href="mailto:eloi.dumas@efrei.net" class="alink">↗ Email</a>
+              </div>
+
+              <div class="tri r" id="tri">
+                <div class="tri-hd">
+                  <span>Training Log — Saison 2025</span>
+                  <span>Triathlète</span>
+                </div>
+                <div class="tri-grid">
+                  <div>
+                    <div class="tri-v" data-count="137">0</div>
+                    <div class="tri-l">km Nage 🏊</div>
+                  </div>
+                  <div>
+                    <div class="tri-v" data-count="2303">0</div>
+                    <div class="tri-l">km Vélo 🚴</div>
+                  </div>
+                  <div>
+                    <div class="tri-v" data-count="1505">0</div>
+                    <div class="tri-l">km Course 🏃</div>
+                  </div>
+                  <div>
+                    <div class="tri-v" data-count="3945">0</div>
+                    <div class="tri-l">km Total ⚡</div>
+                  </div>
+                </div>
+                <p class="tri-q">"Ce qui est difficile à faire est plus beau à réussir."</p>
+              </div>
+            </div>
+
+            <div class="r" style="transition-delay:.1s">
+              <p class="skills-label">Expériences</p>
+              
+              <div class="exp-list">
+                <div class="exp-row">
+                  <div class="exp-header">
+                    <h3 class="exp-title">Stagiaire Audit</h3>
+                    <span class="exp-date">Avril 2024 — 2 mois</span>
+                  </div>
+                  <p class="exp-company">Fipar Audit</p>
+                  <p class="exp-loc">Paris, France <img src="https://flagcdn.com/w20/fr.png" alt="France" class="flag-icon"></p>
+                  <p class="exp-desc">
+                    Analyse hebdomadaire des états financiers de 9 entreprises et suivi des variations annuelles. Détection d'anomalies comptables et élaboration d'actions correctives en collaboration directe avec le responsable d'audit.
+                  </p>
+                </div>
+                <div class="exp-row">
+                  <div class="exp-header">
+                    <h3 class="exp-title">Stagiaire en Vente</h3>
+                    <span class="exp-date">Avril 2024 — 3 mois</span>
+                  </div>
+                  <p class="exp-company">Upper-Crust Baking</p>
+                  <p class="exp-loc">San Francisco, USA <img src="https://flagcdn.com/w20/us.png" alt="USA" class="flag-icon"></p>
+                  <p class="exp-desc">
+                    Gestion quotidienne d'environ 120 ventes (ticket moyen de 22 $), générant plus de 15 000 $ de revenus. Prise en charge du rapprochement de caisse, de la gestion des stocks, et représentation de la marque lors du Whole Earth Festival (30 000+ visiteurs).
+                  </p>
+                </div>
+                <div class="exp-row">
+                  <div class="exp-header">
+                    <h3 class="exp-title">Stagiaire en Trésorerie Internationale</h3>
+                    <span class="exp-date">Avril 2023 — 3 mois</span>
+                  </div>
+                  <p class="exp-company">Systra</p>
+                  <p class="exp-loc">Paris, France <img src="https://flagcdn.com/w20/fr.png" alt="France" class="flag-icon"></p>
+                  <p class="exp-desc">
+                    Gestion mensuelle d'une quinzaine de contrats à terme (jusqu'à 200 M€) pour 20 entités du groupe. Optimisation de la liquidité, couverture des positions financières, analyse de la volatilité des devises et prévision des cash-flows via l'outil Fairways Change.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="contact-inner r">
+            <h2 class="contact-title">
+              Construisons quelque<br><em>chose ensemble.</em>
+            </h2>
+            <p class="contact-meta">
+              Stage 5 mois · Novembre 2026<br>
+              France · International · Dev · ML · Data
+            </p>
+            <a href="mailto:eloi.dumas@efrei.net" class="contact-btn">
+              Prendre contact
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-flex">
+            <p class="footer-content">Un développeur ordinaire.</p>
+            <p class="footer-content">De Paris avec amour.</p>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
