@@ -252,6 +252,28 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   color: #b3b3b3; /* Gris plus clair pour Kuala Lumpur, pour garder le contraste */
 }
 
+/* ── Badges statut école ── */
+.school-badge {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.35rem;
+  border-radius: 99px;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.school-badge--active {
+  color: #888888;
+  border: 1px solid #d0d0d0;
+}
+
+.school-badge--done {
+  color: #b3b3b3;
+  border: 1px solid #e0e0e0;
+}
+
 /* ── Ajustement pour mobile ── */
 @media (max-width: 640px) {
   .bc-name-top {
