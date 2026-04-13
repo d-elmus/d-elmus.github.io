@@ -274,6 +274,15 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   border: 1px solid #e0e0e0;
 }
 
+.school-desc {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: #b3b3b3;
+  margin-top: 0.05rem;
+  margin-bottom: 0.35rem;
+}
+
 /* ── Ajustement pour mobile ── */
 @media (max-width: 640px) {
   .bc-name-top {
