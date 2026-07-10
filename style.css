@@ -195,8 +195,7 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
 .bc-status { grid-column: 3/4; grid-row: 1/2; }
 .bc-links { grid-column: 4/5; grid-row: 1/2; }
 .bc-tri  { grid-column: 3/5; grid-row: 2/3; }
-.bc-bio  { grid-column: 1/3; grid-row: 3/4; }
-.bc-tech { grid-column: 3/5; grid-row: 3/4; }
+.bc-bio  { grid-column: 1/5; grid-row: 3/4; }
 
 /* Name card */
 .bc-eyebrow {
@@ -375,14 +374,6 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
 
 /* Bio card */
 .bc-bio-text { font-size: .98rem; line-height: 1.75; color: var(--fg); }
-
-/* Tech card */
-.bc-tags { display: flex; flex-wrap: wrap; gap: .4rem; }
-.bc-tag {
-  font-family: var(--mono); font-size: .58rem;
-  padding: .25rem .65rem; border-radius: 100px;
-  border: 1px solid var(--dim); color: var(--muted);
-}
 
 /* ── Work section ───────────────────────────────────── */
 #work { padding: 5rem 0; border-top: 1px solid var(--dim); }
@@ -675,7 +666,6 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   .bc-links { grid-column: 2/3; grid-row: 2/3; }
   .bc-tri  { grid-column: 1/3; grid-row: 3/4; }
   .bc-bio  { grid-column: 1/3; grid-row: 4/5; }
-  .bc-tech { grid-column: 1/3; grid-row: 5/6; }
   .bc-tri-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
   .tri-grid { grid-template-columns: repeat(2, 1fr); }
@@ -687,7 +677,7 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   #menu { display: none; }
   #menu-mobile { display: flex; }
   .bento { grid-template-columns: 1fr; gap: .5rem; }
-  .bc-name, .bc-status, .bc-links, .bc-tri, .bc-bio, .bc-tech {
+  .bc-name, .bc-status, .bc-links, .bc-tri, .bc-bio {
     grid-column: 1/2; grid-row: auto;
   }
   .bc-name { min-height: 220px; }
@@ -697,37 +687,6 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   .pi-right { display: none; }
   .footer-flex { flex-direction: column; gap: .5rem; text-align: center; }
 }
-
-/* ── Ajout d'une transition sur le tag de base ── */
-.bc-tag {
-  font-family: var(--mono); font-size: .58rem;
-  padding: .25rem .65rem; border-radius: 100px;
-  border: 1px solid var(--dim); color: var(--muted);
-  transition: all 0.3s ease; /* Rend le changement de couleur fluide */
-  cursor: default; /* Indique à l'utilisateur que c'est interactif */
-}
-
-/* ── Couleurs spécifiques au survol ── */
-
-/* Langages Core */
-.bc-tag.tag-python:hover { border-color: #3776AB; color: #3776AB; background: rgba(55, 118, 171, 0.08); }
-.bc-tag.tag-ts:hover { border-color: #3178C6; color: #3178C6; background: rgba(49, 120, 198, 0.08); }
-
-/* IA & Data (Violets / Oranges) */
-.bc-tag.tag-ml:hover { border-color: #8B5CF6; color: #8B5CF6; background: rgba(139, 92, 246, 0.08); }
-.bc-tag.tag-pytorch:hover { border-color: #EE4C2C; color: #EE4C2C; background: rgba(238, 76, 44, 0.08); }
-.bc-tag.tag-data:hover { border-color: #F97316; color: #F97316; background: rgba(249, 115, 22, 0.08); }
-
-/* Maths & Finance (Verts / Émeraude) */
-.bc-tag.tag-quant:hover { border-color: #10B981; color: #10B981; background: rgba(16, 185, 129, 0.08); }
-.bc-tag.tag-math:hover { border-color: #059669; color: #059669; background: rgba(5, 150, 105, 0.08); }
-.bc-tag.tag-algo:hover { border-color: #E11D48; color: #E11D48; background: rgba(225, 29, 72, 0.08); }
-
-/* Ingénierie & Cloud (Bleus / Cyans) */
-.bc-tag.tag-cloud:hover { border-color: #0EA5E9; color: #0EA5E9; background: rgba(14, 165, 233, 0.08); }
-.bc-tag.tag-streamlit:hover { border-color: #FF4B4B; color: #FF4B4B; background: rgba(255, 75, 75, 0.08); }
-.bc-tag.tag-react:hover { border-color: #149ECA; color: #149ECA; background: rgba(20, 158, 202, 0.08); }
-
 
 /* ── Boutons de navigation Bento (Version épurée) ── */
 .bento-nav {
