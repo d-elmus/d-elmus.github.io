@@ -844,11 +844,19 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   color: var(--muted);
   opacity: 0.5;
 }
-.exp-side { margin-top: 2.5rem; }
-.exp-wide { margin-top: 4rem; }
-.exp-wide .exp-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 4rem; }
-.exp-wide .exp-row:nth-of-type(2) { border-top: 1px solid var(--dim); }
+
+/* ── Bandes d'expériences ── */
+.exp-band {
+  display: grid; grid-template-columns: 4fr 6fr; gap: 4rem; align-items: start;
+  margin-top: 5rem; padding-top: 3rem;
+  border-top: 1px solid var(--fg);
+}
+.exp-band .about-h { margin-bottom: .75rem; }
+.exp-band-sub {
+  font-family: var(--mono); font-size: .62rem; color: var(--muted);
+  letter-spacing: .08em; text-transform: uppercase; line-height: 1.6;
+}
+.exp-band .exp-row:first-of-type { border-top: 0; padding-top: 0; }
 @media (max-width: 900px) {
-  .exp-wide .exp-list { grid-template-columns: 1fr; }
-  .exp-wide .exp-row:nth-of-type(2) { border-top: 0; }
+  .exp-band { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 3.5rem; padding-top: 2rem; }
 }
