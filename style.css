@@ -867,3 +867,5 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   box-shadow: 0 4px 14px rgba(28,28,28,.25);
 }
 .bento-btn--primary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(28,28,28,.3); }
+
+#experiences { scroll-margin-top: 6rem; }
