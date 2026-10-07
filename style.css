@@ -860,3 +860,10 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
 @media (max-width: 900px) {
   .exp-band { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 3.5rem; padding-top: 2rem; }
 }
+
+.bento-btn--primary {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+  font-weight: 500; padding: 0.6rem 1.2rem; font-size: 0.68rem;
+  box-shadow: 0 4px 14px rgba(28,28,28,.25);
+}
+.bento-btn--primary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(28,28,28,.3); }
