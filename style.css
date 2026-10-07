@@ -844,3 +844,4 @@ body.menu-open .nav-burger span:nth-child(3) { transform: translateY(-5px) rotat
   color: var(--muted);
   opacity: 0.5;
 }
+.exp-side { margin-top: 2.5rem; }
